@@ -17,3 +17,7 @@ let isApproved = false; // Boolean Literal
 let firstName = undefined;
 
 let selectedName = null;
+
+console.log(typeof age);
+
+console.log(typeof selectedName);
