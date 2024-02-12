@@ -42,3 +42,19 @@ console.log(person.age);
 person["age"] = 21;
 
 console.log(person.age);
+
+// Arrays
+
+let selectedColors = ["red", "green", "blue"];
+
+console.log(selectedColors);
+
+console.log(selectedColors[1]);
+
+selectedColors[3] = 19; // Dynamic
+
+console.log(selectedColors);
+
+console.log(typeof selectedColors);
+
+console.log(selectedColors.length);
