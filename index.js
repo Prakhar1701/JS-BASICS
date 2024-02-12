@@ -21,3 +21,24 @@ let selectedName = null;
 console.log(typeof age);
 
 console.log(typeof selectedName);
+
+// Objects
+
+let person = {
+  name: "Prakhar",
+  age: 20,
+};
+
+console.log(person);
+
+// Dot Notation:
+
+person.age = 23;
+
+console.log(person.age);
+
+// Bracket Notation:
+
+person["age"] = 21;
+
+console.log(person.age);
