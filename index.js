@@ -58,3 +58,33 @@ console.log(selectedColors);
 console.log(typeof selectedColors);
 
 console.log(selectedColors.length);
+
+//Functions
+
+// Performing a task:
+
+function greet1() {
+  console.log("Hello World");
+}
+
+greet1();
+
+function greet2(name) {
+  console.log("Hello " + name);
+}
+
+greet2("Prakhar");
+
+function greet3(firstName, lastName) {
+  console.log("Hello " + firstName + " " + lastName);
+}
+
+greet3("Prakhar", "Agrawal");
+
+// Calculating a value:
+
+function square(number) {
+  return number * number;
+}
+
+console.log(square(5));
